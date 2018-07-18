@@ -16,7 +16,7 @@ exports.getComponent = function() {
     if (!input.hasData('in')) {
       return;
     }
-    console.log("heyy...");
+    console.log("hey *** ...");
     // Read packets we need to process
     var data = input.getData('in');
     // Process data and send output
