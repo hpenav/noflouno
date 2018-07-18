@@ -10,22 +10,22 @@
     "outports": {},
     "groups": [],
     "processes": {
-        "proj2/uno_le9uj": {
-            "component": "proj2/uno",
+        "proj2/dos_o343t": {
+            "component": "proj2/dos",
             "metadata": {
-                "label": "uno",
-                "x": 540,
-                "y": 108,
+                "label": "dos",
+                "x": 720,
+                "y": 360,
                 "width": 72,
                 "height": 72
             }
         },
-        "proj2/dos_djcsn": {
-            "component": "proj2/dos",
+        "proj2/uno_oocbg": {
+            "component": "proj2/uno",
             "metadata": {
-                "label": "dos",
-                "x": 756,
-                "y": 108,
+                "label": "uno",
+                "x": 504,
+                "y": 360,
                 "width": 72,
                 "height": 72
             }
@@ -34,19 +34,19 @@
     "connections": [
         {
             "src": {
-                "process": "proj2/uno_le9uj",
+                "process": "proj2/uno_oocbg",
                 "port": "out"
             },
             "tgt": {
-                "process": "proj2/dos_djcsn",
+                "process": "proj2/dos_o343t",
                 "port": "in"
             },
             "metadata": {}
         },
         {
-            "data": "data",
+            "data": "ABC 123",
             "tgt": {
-                "process": "proj2/uno_le9uj",
+                "process": "proj2/uno_oocbg",
                 "port": "in"
             }
         }
