@@ -9,6 +9,25 @@
     "inports": {},
     "outports": {},
     "groups": [],
-    "processes": {},
-    "connections": []
+    "processes": {
+        "proj2/uno_le9uj": {
+            "component": "proj2/uno",
+            "metadata": {
+                "label": "uno",
+                "x": 720,
+                "y": 432,
+                "width": 72,
+                "height": 72
+            }
+        }
+    },
+    "connections": [
+        {
+            "data": "data",
+            "tgt": {
+                "process": "proj2/uno_le9uj",
+                "port": "in"
+            }
+        }
+    ]
 }
