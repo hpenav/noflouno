@@ -14,7 +14,7 @@
             "component": "proj2/dos",
             "metadata": {
                 "label": "dos",
-                "x": 720,
+                "x": 756,
                 "y": 360,
                 "width": 72,
                 "height": 72
@@ -24,7 +24,7 @@
             "component": "proj2/uno",
             "metadata": {
                 "label": "uno",
-                "x": 576,
+                "x": 612,
                 "y": 360,
                 "width": 72,
                 "height": 72
@@ -40,8 +40,7 @@
             "tgt": {
                 "process": "proj2/dos_o343t",
                 "port": "in"
-            },
-            "metadata": {}
+            }
         },
         {
             "data": "ABC 123",
