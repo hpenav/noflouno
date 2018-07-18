@@ -14,14 +14,35 @@
             "component": "proj2/uno",
             "metadata": {
                 "label": "uno",
-                "x": 720,
-                "y": 432,
+                "x": 540,
+                "y": 108,
+                "width": 72,
+                "height": 72
+            }
+        },
+        "proj2/dos_djcsn": {
+            "component": "proj2/dos",
+            "metadata": {
+                "label": "dos",
+                "x": 756,
+                "y": 108,
                 "width": 72,
                 "height": 72
             }
         }
     },
     "connections": [
+        {
+            "src": {
+                "process": "proj2/uno_le9uj",
+                "port": "out"
+            },
+            "tgt": {
+                "process": "proj2/dos_djcsn",
+                "port": "in"
+            },
+            "metadata": {}
+        },
         {
             "data": "data",
             "tgt": {
